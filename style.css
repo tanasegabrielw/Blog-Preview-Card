@@ -1,2 +1,29 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size:16px;
+}
+
+.card{
+    border:1px solid black;
+    border-radius: 1.2rem;
+    box-shadow: 5px 5cap 1px black;
+    max-width: 25vw;
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+}
+
+.card > img{
+    width: 100%;
+    border-radius: 1.2rem;
+}
