@@ -79,6 +79,10 @@ h1{
     font-size: 0.9rem;
 }
 
-.card *{
-    margin-bottom: 0.5rem;
+img,
+.category,
+.date,
+h1,
+p{
+    margin-bottom: 0.8rem;
 }
