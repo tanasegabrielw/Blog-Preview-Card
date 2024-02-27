@@ -61,6 +61,11 @@ body{
 h1{
     font-size: 1.4rem;
 }
+h1:hover{
+color:var(--yellow);
+cursor: pointer;
+font-weight: 800;
+}
 
 .author{
     display: flex;
