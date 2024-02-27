@@ -1,7 +1,10 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
 body{
+    font-family: Figtree, sans-serif;
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -14,16 +17,23 @@ body{
 }
 
 .card{
+    font-size: inherit;
     border:1px solid black;
     border-radius: 1.2rem;
-    box-shadow: 5px 5cap 1px black;
-    max-width: 25vw;
+    box-shadow: 5px 5px 1px black;
+    min-width: 20em;
+    max-width: 20em;
     display: flex;
     flex-direction: column;
-    padding:2rem;
+    padding:1rem;
 }
 
 .card > img{
     width: 100%;
     border-radius: 1.2rem;
+}
+
+.card .category{
+    font-weight: 800;
+
 }
