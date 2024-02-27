@@ -3,10 +3,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
+:root{
+    --yellow:hsl(47, 88%, 63%);
+}
+
 body{
     font-family: Figtree, sans-serif;
     margin:0;
     padding:0;
+    background: var(--yellow);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -14,17 +19,17 @@ body{
     align-items: center;
     height: 100vh;
     font-size:16px;
+    line-height: 1.5rem;
 }
 
 .card{
+    background: white;
     font-size: inherit;
     border:1px solid black;
     border-radius: 1.2rem;
     box-shadow: 5px 5px 1px black;
-    min-width: 20em;
-    max-width: 20em;
-    display: flex;
-    flex-direction: column;
+    min-width: 25em;
+    max-width: 25em;
     padding:1rem;
 }
 
@@ -35,5 +40,7 @@ body{
 
 .card .category{
     font-weight: 800;
-
+    width: fit-content;
+    background: var(--yellow);
+    
 }
