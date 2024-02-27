@@ -65,9 +65,17 @@ h1{
 .author{
     display: flex;
     align-items: center;
+    gap:10px;
 }
 
 .author img{
     width: 2em;
     height: auto;
 }
+
+.author p{
+    color:black;
+    font-weight: 800;
+    font-size: 0.9rem;
+}
+
