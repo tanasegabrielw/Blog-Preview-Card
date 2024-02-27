@@ -39,6 +39,8 @@ body{
 }
 
 .card .category{
+    border-radius: 0.5rem;
+    padding:0.2rem 0.8rem;
     font-weight: 800;
     width: fit-content;
     background: var(--yellow);
