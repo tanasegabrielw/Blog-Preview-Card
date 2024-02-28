@@ -19,7 +19,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     font-size:16px;
     line-height: 1.5rem;
 }
@@ -30,7 +30,6 @@ body{
     border:1px solid black;
     border-radius: 1.2rem;
     box-shadow: 5px 5px 1px black;
-    min-width: 21em;
     max-width: 21em;
     padding:1rem;
 }
